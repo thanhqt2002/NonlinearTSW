@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python3 main.py --type swae --loss1 BCE --loss2 stsw_gen --ntrees 200 --nlines 10 --delta 10 --beta 1 --d 3 --lr 1e-3 --epochs 100 --dataset c10 --prior vmf --batch_size 500 --device cuda

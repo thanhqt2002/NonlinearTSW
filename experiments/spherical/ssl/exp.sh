@@ -1,0 +1,2 @@
+GPU=0
+CUDA_VISIBLE_DEVICES=${GPU} python3 train_eval.py --method stsw_gen --ntrees 200 --nlines 20 --delta 2 --unif_w 10 --feat_dim 10 --epochs 200 --batch_size 512 --momentum 0.9 --weight_decay 1e-3 --lr 0.05 --seed 100
